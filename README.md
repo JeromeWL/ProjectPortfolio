@@ -12,7 +12,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 - **Description:** A deep learning model that classifies American Sign Language (ASL) letters.  
 - **Key Skills:** Vision Transformers, TensorFlow, Image Preprocessing, Model Optimization.  
 - **Highlights:**  
-  - Achieved 93% accuracy on the ASL dataset. (https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
+  - Achieved 93% classification accuracy on the ASL dataset. (https://www.kaggle.com/datasets/grassknoted/asl-alphabet)
   - Utilized Vision Transformers for letter classification.  
   - Implemented data augmentation for improved generalization.  
   - Future plans to rework the ViT from classification to feature extraction, and utilize another deep learning model for classification.
