@@ -1,0 +1,62 @@
+2024-12-17 17:53:38.833206: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-12-17 17:53:40.663828: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2024-12-17 17:53:40.664835: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2024-12-17 17:53:40.841284: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:c3:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.73GiB deviceMemoryBandwidth: 1.03TiB/s
+2024-12-17 17:53:40.841335: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-12-17 17:53:40.843312: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2024-12-17 17:53:40.843345: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2024-12-17 17:53:40.845117: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2024-12-17 17:53:40.845823: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2024-12-17 17:53:40.847537: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2024-12-17 17:53:40.848706: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2024-12-17 17:53:40.851938: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2024-12-17 17:53:40.852652: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+WARNING:tensorflow:AutoGraph could not transform <bound method Patches.call of <__main__.Patches object at 0x7f2edc3159d0>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+WARNING:tensorflow:AutoGraph could not transform <bound method PatchEncoder.call of <__main__.PatchEncoder object at 0x7f2edc315c40>> and will run it as-is.
+Please report this to the TensorFlow team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output.
+Cause: module 'gast' has no attribute 'Index'
+To silence this warning, decorate the function with @tf.autograph.experimental.do_not_convert
+2024-12-17 17:53:44.014151: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-12-17 17:53:44.014714: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2024-12-17 17:53:44.016285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:c3:00.0 name: Tesla V100S-PCIE-32GB computeCapability: 7.0
+coreClock: 1.597GHz coreCount: 80 deviceMemorySize: 31.73GiB deviceMemoryBandwidth: 1.03TiB/s
+2024-12-17 17:53:44.016319: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-12-17 17:53:44.016347: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2024-12-17 17:53:44.016358: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2024-12-17 17:53:44.016392: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2024-12-17 17:53:44.016403: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2024-12-17 17:53:44.016414: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2024-12-17 17:53:44.016424: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2024-12-17 17:53:44.016434: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2024-12-17 17:53:44.016950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2024-12-17 17:53:44.016988: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2024-12-17 17:53:44.592086: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2024-12-17 17:53:44.592147: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2024-12-17 17:53:44.592157: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2024-12-17 17:53:44.593248: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 30121 MB memory) -> physical GPU (device: 0, name: Tesla V100S-PCIE-32GB, pci bus id: 0000:c3:00.0, compute capability: 7.0)
+2024-12-17 17:53:46.311120: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2024-12-17 17:53:46.323250: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2345475000 Hz
+2024-12-17 17:53:49.867675: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2024-12-17 21:53:17.682924: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:absl:Found untraced functions such as dense_layer_call_and_return_conditional_losses, dense_layer_call_fn, embedding_layer_call_and_return_conditional_losses, embedding_layer_call_fn, query_layer_call_and_return_conditional_losses while saving (showing 5 of 190). These functions will not be directly callable after loading.
+WARNING:absl:Found untraced functions such as dense_layer_call_and_return_conditional_losses, dense_layer_call_fn, embedding_layer_call_and_return_conditional_losses, embedding_layer_call_fn, query_layer_call_and_return_conditional_losses while saving (showing 5 of 190). These functions will not be directly callable after loading.
+Traceback (most recent call last):
+  File "Datapipeline_ablation.py", line 395, in <module>
+    vit_classifier.load_weights('./shell_script/model_weights.h5') 
+  File "/data/software/python-libs/3.0.0/lib/python3.8/site-packages/tensorflow/python/keras/engine/training.py", line 2227, in load_weights
+    with h5py.File(filepath, 'r') as f:
+  File "/data/software/python-libs/3.0.0/lib/python3.8/site-packages/h5py/_hl/files.py", line 406, in __init__
+    fid = make_fid(name, mode, userblock_size,
+  File "/data/software/python-libs/3.0.0/lib/python3.8/site-packages/h5py/_hl/files.py", line 173, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 88, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = './shell_script/model_weights.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
