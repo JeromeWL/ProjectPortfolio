@@ -1,6 +1,6 @@
 ---
 
-# 💻 AI & Data Science Portfolio 🚀
+# AI & Data Science Portfolio
 
 Welcome to my GitHub portfolio! Here, you'll find a collection of projects that highlight my skills and interests in **AI**, **machine learning**, **data science**, and **software development**. 
 
