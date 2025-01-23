@@ -19,6 +19,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 ---
 
 ### 2. **[3D CNN for Pancreas Segmentation](WORK IN PROGRESS)**  
+- **Research Advisor:** Rahul Gomes.
 - **Description:** A 3D convolutional neural network designed to segment pancreas regions from medical imaging data.  
 - **Key Skills:** U-Net architecture, TensorFlow, Medical Image Processing.  
 - **Highlights:**  
