@@ -39,10 +39,10 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 
 ### 4. **[Website summarizer]**  
 - **Description:** A personal project used to summarize academic papers and articles."  
-- **Key Skills:** Python, webscraping, tokenization.  
+- **Key Skills:** Python, webscraping, NLP and tokenization.  
 - **Highlights:**  
   - Summarizes papers by only giving the program the link to the article.  
-  - Returns an accurate summarization of the paper at about a fourth of the original length.
+  - Utilizes a NLP to return an accurate summarization of the paper at about a fourth of the original length.
     
 ---
 
