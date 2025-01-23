@@ -8,7 +8,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
 
 ## 🌟 Featured Projects
 
-### 1. **[ASL Letter Classification utilizing a Vision Transformer](UPDATING)**  
+### 1. **[ASL Letter Classification utilizing a Vision Transformer] (UPDATING)**  
 - **Description:** A deep learning model that classifies American Sign Language (ASL) letters.  
 - **Key Skills:** Vision Transformers, TensorFlow, Image Preprocessing, Model Optimization.  
 - **Highlights:**  
@@ -18,7 +18,7 @@ Welcome to my GitHub portfolio! Here, you'll find a collection of projects that 
   - Future plans to rework the ViT from classification to feature extraction, and utilize another deep learning model for classification.
 ---
 
-### 2. **[3D CNN for Pancreas Segmentation](WORK IN PROGRESS)**  
+### 2. **[3D CNN for Pancreas Segmentation] (WORK IN PROGRESS)**  
 - **Research Advisor:** Rahul Gomes.
 - **Description:** A 3D convolutional neural network designed to segment pancreas regions from medical imaging data.  
 - **Key Skills:** U-Net architecture, TensorFlow, Medical Image Processing.  
